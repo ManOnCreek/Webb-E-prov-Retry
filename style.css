@@ -1,0 +1,61 @@
+body{
+    background-color: #ebbdac;
+}
+
+
+header{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+#ToolsImage{
+    width: 10%;
+    height: 10%;
+}
+
+#Lankar{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#Main{
+    display: flex;
+
+}
+
+#TitleAxe{
+display:flex;
+/* justify-content: flex-end; */
+padding-left: 43%;
+
+}
+#Lorem{
+    display:flex;
+    /* width:60%; */
+}
+
+#AxeImage{
+display:flex;
+/* flex-direction:row; */
+width: 33%;
+padding-bottom: 1%;
+/* justify-content: flex-start; */
+}
+
+#MainText{
+    display: flex;
+    flex-direction:column;
+    width: 65%;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
